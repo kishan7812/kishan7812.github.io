@@ -19,7 +19,7 @@ Kishan M. Patil is a Frontend Specialist, Creative Developer, and AI Enthusiast 
 
 ## Academic Background & Achievements
 - Institution: Marwadi University
-- Program: Diploma in Information and Communication Technology (ICT) (2024 - 2027)
+- Program: Diploma in Information and Communication Technology (ICT) (2025 - 2028)
 - Code Carnival 3.0: 3rd Place Winner in high-intensity live coding competition.
 - Hackathons: Over 100+ hackathons on Unstop with extensive leadership in rapid frontend prototyping and multi-agent system design.
 

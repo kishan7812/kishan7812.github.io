@@ -200,7 +200,8 @@ export const personalInfo = {
   education: {
     institution: "Marwadi University",
     program: "Diploma in Information and Communication Technology (Diploma-ICT)",
-    status: "Currently Pursuing",
+    period: "2025 - 2028",
+    status: "Currently Pursuing (2025 - 2028)",
     focus: [
       "Advanced Web Engineering & Modern Client-Side Architecture",
       "Data Structures, Algorithms & Computational Logic",
