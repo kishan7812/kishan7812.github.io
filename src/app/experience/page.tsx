@@ -18,7 +18,7 @@ export default function ExperiencePage() {
     {
       role: "Hackathon Team Lead & Frontend Engineer",
       organization: "Competitive Engineering & Unstop Sprints",
-      timeline: "2023 - Present",
+      timeline: "2025 - Present",
       bullets: [
         "Led multiple developer squads across 100+ hackathons on Unstop, coordinating task breakdown and frontend architecture.",
         "Delivered full-stack MVPs within 24 to 48-hour timeframes under strict judging criteria.",
@@ -28,7 +28,7 @@ export default function ExperiencePage() {
     {
       role: "Creative 3D Web & Independent Developer",
       organization: "Open Web Projects",
-      timeline: "2023 - Present",
+      timeline: "2025 - Present",
       bullets: [
         "Architected EARTHVERSE, a native browser 3D virtual environment with real-time collision detection and persistent state.",
         "Engineered CampusTrace, combining Google Gemini multimodal vision AI with cryptographic QR verification.",
