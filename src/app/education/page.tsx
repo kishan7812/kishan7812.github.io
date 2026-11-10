@@ -239,63 +239,70 @@ export default function EducationPage() {
           Education and Degrees
         </h2>
 
-        <div className="ref-card overflow-hidden bg-white shadow-md rounded-2xl border border-black/5 transition-all hover:shadow-lg">
-          {/* Marwadi University Campus Image (Compact Aspect Ratio) */}
-          <div className="relative w-full h-44 sm:h-52 md:h-56 overflow-hidden bg-slate-100">
-            <Image
-              src="/images/education/marwadi-university.jpg"
-              alt="Marwadi University Campus"
-              fill
-              priority
-              quality={90}
-              className="object-cover object-center"
-              sizes="(max-width: 768px) 100vw, 768px"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent pointer-events-none" />
-            <div className="absolute bottom-3 left-5 right-5 text-white flex items-center justify-between">
-              <span className="text-[11px] uppercase tracking-wider font-bold bg-blue-600/90 backdrop-blur-sm px-2.5 py-0.5 rounded shadow-sm">
-                NAAC A+ Accredited Campus
-              </span>
-            </div>
-          </div>
-
-          {/* Header Banner */}
-          <div className="bg-[#FDE68A]/70 px-5 sm:px-6 py-3.5 flex flex-wrap items-center justify-between gap-2.5 border-b border-amber-200">
-            <div>
-              <h3 className="font-bold text-base sm:text-lg text-[#111827] leading-snug">
-                {education.program}
-              </h3>
-              <p className="text-xs sm:text-sm font-semibold text-[#4B5563] mt-0.5">
-                {education.institution}
-              </p>
-            </div>
-            <span className="text-[11px] font-semibold px-2.5 py-1 rounded bg-white text-gray-800 shadow-sm shrink-0 border border-black/5">
-              {education.status}
-            </span>
-          </div>
-
-          {/* Curriculum Points & CTA Button (Compact Padding & Clean Typography) */}
-          <div className="p-5 sm:p-6 space-y-2.5">
-            {education.focus.map((item, idx) => (
-              <div key={idx} className="flex items-start gap-2.5 text-sm text-[#4B5563] leading-relaxed">
-                <span className="text-blue-600 font-bold shrink-0">&bull;</span>
-                <span>{item}</span>
+        <div className="space-y-10">
+          {(personalInfo.educationList || [education]).map((item, index) => (
+            <div
+              key={index}
+              className="ref-card overflow-hidden bg-white shadow-md rounded-2xl border border-black/5 transition-all hover:shadow-lg"
+            >
+              {/* Institution Image */}
+              <div className="relative w-full h-44 sm:h-52 md:h-56 overflow-hidden bg-slate-100">
+                <Image
+                  src={item.image}
+                  alt={item.institution}
+                  fill
+                  priority={index === 0}
+                  quality={90}
+                  className="object-cover object-center"
+                  sizes="(max-width: 768px) 100vw, 768px"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent pointer-events-none" />
+                <div className="absolute bottom-3 left-5 right-5 text-white flex items-center justify-between">
+                  <span className="text-[11px] uppercase tracking-wider font-bold bg-blue-600/90 backdrop-blur-sm px-2.5 py-0.5 rounded shadow-sm">
+                    {item.badge}
+                  </span>
+                </div>
               </div>
-            ))}
 
-            {/* View Course Details Button */}
-            <div className="pt-4 mt-4 border-t border-gray-100 flex items-center justify-start">
-              <a
-                href="https://www.marwadiuniversity.ac.in/ict-diploma/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg font-semibold text-xs text-white bg-[#111827] hover:bg-blue-600 shadow-sm hover:shadow transition-all duration-200 group"
-              >
-                <span>View Course in Detail</span>
-                <ExternalLink className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              </a>
+              {/* Header Banner */}
+              <div className={`${item.bannerBg} px-5 sm:px-6 py-3.5 flex flex-wrap items-center justify-between gap-2.5 border-b`}>
+                <div>
+                  <h3 className="font-bold text-base sm:text-lg text-[#111827] leading-snug">
+                    {item.program}
+                  </h3>
+                  <p className="text-xs sm:text-sm font-semibold text-[#4B5563] mt-0.5">
+                    {item.institution}
+                  </p>
+                </div>
+                <span className="text-[11px] font-semibold px-2.5 py-1 rounded bg-white text-gray-800 shadow-sm shrink-0 border border-black/5">
+                  {item.status}
+                </span>
+              </div>
+
+              {/* Curriculum Points & CTA Button */}
+              <div className="p-5 sm:p-6 space-y-2.5">
+                {item.focus.map((point, idx) => (
+                  <div key={idx} className="flex items-start gap-2.5 text-sm text-[#4B5563] leading-relaxed">
+                    <span className="text-blue-600 font-bold shrink-0">&bull;</span>
+                    <span>{point}</span>
+                  </div>
+                ))}
+
+                {/* View Details Button */}
+                <div className="pt-4 mt-4 border-t border-gray-100 flex items-center justify-start">
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg font-semibold text-xs text-white bg-[#111827] hover:bg-blue-600 shadow-sm hover:shadow transition-all duration-200 group"
+                  >
+                    <span>{item.linkText}</span>
+                    <ExternalLink className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>

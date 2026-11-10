@@ -45,7 +45,7 @@ export default function AboutPage() {
             Frontend Specialist • Creative Developer • AI Enthusiast
           </p>
           <p className="text-base text-[#4B5563] leading-relaxed">
-            I am a student developer passionate about building meaningful digital experiences through technology, engineering precision, and interactive creativity. Currently pursuing a Diploma in Information and Communication Technology (ICT) at Marwadi University (2025–2028).
+            I am a student developer passionate about building meaningful digital experiences through technology, engineering precision, and interactive creativity. Currently pursuing a Diploma in Information and Communication Technology (ICT) at Marwadi University (2025–2028), having completed my secondary schooling (9th &amp; 10th CBSE) at Prakruti National School (2023–2025).
           </p>
         </div>
       </div>

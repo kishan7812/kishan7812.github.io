@@ -197,6 +197,40 @@ export const personalInfo = {
     github: "https://github.com/kishan-ict",
     linkedin: "https://www.linkedin.com/in/kishan-m-patil-7860k1244"
   },
+  educationList: [
+    {
+      institution: "Marwadi University",
+      program: "Diploma in Information and Communication Technology (Diploma-ICT)",
+      period: "2025 - 2028",
+      status: "Currently Pursuing",
+      badge: "NAAC A+ Accredited Campus",
+      bannerBg: "bg-[#FDE68A]/70 border-amber-200",
+      image: "/images/education/marwadi-university.jpg",
+      link: "https://www.marwadiuniversity.ac.in/ict-diploma/",
+      linkText: "View Course in Detail",
+      focus: [
+        "Advanced Web Engineering & Modern Client-Side Architecture",
+        "Data Structures, Algorithms & Computational Logic",
+        "Network Protocols, Cloud Primitives & Systems Engineering"
+      ]
+    },
+    {
+      institution: "Prakruti National School (PNS)",
+      program: "Secondary School Certificate — CBSE Board (9th & 10th Grade)",
+      period: "2023 - 2025",
+      status: "Completed (2023 - 2025)",
+      badge: "CBSE Affiliated",
+      bannerBg: "bg-[#BFDBFE]/70 border-blue-200",
+      image: "/images/education/pns-school.jpg",
+      link: "https://prakrutieducation.com",
+      linkText: "Visit Official School Website",
+      focus: [
+        "CBSE Curriculum in Mathematics, Physical Sciences & Computer Basics",
+        "Logical Reasoning, Analytical Problem Solving & Team Projects",
+        "Active Participation in Science Exhibitions & Academic Competitions"
+      ]
+    }
+  ],
   education: {
     institution: "Marwadi University",
     program: "Diploma in Information and Communication Technology (Diploma-ICT)",
