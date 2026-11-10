@@ -216,7 +216,7 @@ export const personalInfo = {
     },
     {
       institution: "Prakruti National School (PNS)",
-      program: "Secondary School Certificate — CBSE Board (9th & 10th Grade)",
+      program: "Secondary School — CBSE Board (9th & 10th Grade)",
       period: "2023 - 2025",
       status: "Completed (2023 - 2025)",
       badge: "CBSE Affiliated",
