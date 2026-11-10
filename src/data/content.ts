@@ -229,6 +229,38 @@ export const personalInfo = {
         "Logical Reasoning, Analytical Problem Solving & Team Projects",
         "Active Participation in Science Exhibitions & Academic Competitions"
       ]
+    },
+    {
+      institution: "Middle School (Name to be updated)",
+      program: "Middle Schooling (8th Grade)",
+      period: "2022 - 2023",
+      status: "Completed (2022 - 2023)",
+      badge: "School Name Forgotten",
+      bannerBg: "bg-[#E5E7EB]/80 border-gray-300",
+      image: "/images/education/memory-school.svg",
+      link: "#",
+      linkText: "Updating School Name Soon",
+      focus: [
+        "Foundational Middle School Academics & Core Subjects",
+        "I forgot the exact school name for this academic year — updating it soon!",
+        "Transitioned into secondary education and competitive preparation"
+      ]
+    },
+    {
+      institution: "Sarvagnan Vidyapeeth (SVP)",
+      program: "Primary & Middle School — Karnataka State Board (Class 5 to 7)",
+      period: "2019 - 2022",
+      status: "Completed (2019 - 2022)",
+      badge: "Karnataka State Board",
+      bannerBg: "bg-[#BBF7D0]/70 border-emerald-200",
+      image: "/images/education/svp-school.jpg",
+      link: "https://www.justdial.com/Bijapur-Karnataka/Sarvagnan-Vidyapeeth-Primary-And-High-School-Behind-Hp-Petrol-Bunk-Talikoti/9999P8352-8352-180330132609-P5F7_BZDET/photos",
+      linkText: "Know More About School",
+      focus: [
+        "Karnataka State Board Curriculum in Mathematics, Science & Languages",
+        "Class 5th, 6th and 7th Foundational Studies at Talikoti Campus",
+        "Co-curricular Activities, School Presentations & Academic Discipline"
+      ]
     }
   ],
   education: {
