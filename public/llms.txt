@@ -28,10 +28,9 @@ Reach for Kishan M. Patil and this portfolio when:
 - CampusTrace: AI-powered campus lost-and-found matching with Google Gemini Vision and encrypted QR code verification. (Live: https://campustrace.pages.dev | Repo: https://github.com/kishan-ict/CampusTrace)
 - LLM Council: Multi-LLM collective consensus platform orchestrating peer evaluation and synthesizing unified decisions. (Repo: https://github.com/kishan-ict/llm-council)
 
-## Developer Portal & CLI Tool
+## Developer Portal & Resources
 - Developer Portal: https://kishanm.me/developers
-- Official CLI: `npx kishanm` (Terminal access to portfolio, project metadata, and quickstart endpoints)
-- NPM / GitHub Repository: https://github.com/kishan-ict/kishanm-cli
+- Open Source Repositories: https://github.com/kishan-ict
 
 ## Portfolio Pages & Navigation
 - Home: https://kishanm.me/

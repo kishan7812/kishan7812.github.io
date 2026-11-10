@@ -55,20 +55,20 @@ export default function DevelopersPage() {
           </Link>
         </div>
 
-        {/* CLI Tool Card */}
+        {/* GitHub Repositories Card */}
         <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl border border-black/5 shadow-sm flex flex-col justify-between">
           <div>
             <div className="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center mb-4">
-              <Terminal className="w-6 h-6" />
+              <Code2 className="w-6 h-6" />
             </div>
             <h2 className="text-xl font-bold text-[#111827] mb-2">
-              Official CLI Tool (`npx kishanm`)
+              Open-Source Repositories &amp; Code
             </h2>
             <p className="text-sm text-[#4B5563] mb-4 leading-relaxed">
-              Interact with Kishan&apos;s interactive developer portfolio and fetch projects or credentials straight from your terminal.
+              Explore production architectures, full-stack Next.js codebases, Three.js shaders, and AI agents directly on GitHub.
             </p>
             <div className="bg-gray-900 text-gray-100 p-4 rounded-xl font-mono text-xs overflow-x-auto mb-4">
-              <code>npx kishanm --help</code>
+              <code>git clone https://github.com/kishan7812/kishan7812.github.io.git</code>
             </div>
           </div>
           <a
@@ -77,7 +77,7 @@ export default function DevelopersPage() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-sm font-semibold text-purple-600 hover:text-purple-800"
           >
-            Explore CLI on GitHub <ExternalLink className="w-3.5 h-3.5" />
+            Visit GitHub Profile <ExternalLink className="w-3.5 h-3.5" />
           </a>
         </div>
       </div>

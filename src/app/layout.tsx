@@ -29,10 +29,9 @@ export const metadata: Metadata = {
   description:
     "Official portfolio of Kishan M Patil (kishanm.me). Frontend Specialist, Creative Developer, and AI Enthusiast showcasing featured projects like Geleya, EARTHVERSE, CampusTrace, and LLM Council.",
   keywords: [
-    // Brand name discoverability terms (Ora audit requirements)
-    "Kishan M Patil Portfolio KISHANMPATIL",
-    "Kishan M Patil Portfolio KISAHN",
+    // Brand name discoverability terms
     "Kishan M Patil Portfolio",
+    "Kishan M Portfolio",
     "Kishan M Patil",
     "KISHAN M PATIL",
     "KISHANMPATIL",
@@ -149,15 +148,15 @@ export default function RootLayout({
           "KISAHN",
           "kisahn",
           "kishan",
-          "Kishan M Patil Portfolio KISHANMPATIL",
-          "Kishan M Patil Portfolio KISAHN"
+          "Kishan M Patil Portfolio",
+          "Kishan M Portfolio"
         ],
         jobTitle: "Frontend Specialist & Creative Developer",
         url: "https://kishanm.me",
         image: "https://kishanm.me/og-image.jpg",
         knowsAbout: [
-          "Kishan M Patil Portfolio KISHANMPATIL",
-          "Kishan M Patil Portfolio KISAHN",
+          "Kishan M Patil Portfolio",
+          "Kishan M Portfolio",
           "Frontend Development",
           "React",
           "Next.js",
@@ -184,8 +183,7 @@ export default function RootLayout({
         url: "https://kishanm.me",
         name: "Kishan M Patil Portfolio",
         alternateName: [
-          "Kishan M Patil Portfolio KISHANMPATIL",
-          "Kishan M Patil Portfolio KISAHN",
+          "Kishan M Portfolio",
           "Kishan Portfolio",
           "Kishan M Patil Projects",
           "Kishan M Patil Work",
@@ -193,8 +191,8 @@ export default function RootLayout({
           "Kishan Project"
         ],
         keywords: [
-          "Kishan M Patil Portfolio KISHANMPATIL",
-          "Kishan M Patil Portfolio KISAHN",
+          "Kishan M Patil Portfolio",
+          "Kishan M Portfolio",
           "Frontend Specialist",
           "Creative Developer",
           "Three.js",
@@ -213,8 +211,7 @@ export default function RootLayout({
         "@id": "https://kishanm.me/#organization",
         name: "Kishan M Patil Portfolio",
         alternateName: [
-          "Kishan M Patil Portfolio KISHANMPATIL",
-          "Kishan M Patil Portfolio KISAHN",
+          "Kishan M Portfolio",
           "Kishan Developer Studio"
         ],
         url: "https://kishanm.me",
@@ -225,10 +222,10 @@ export default function RootLayout({
         contactPoint: [
           {
             "@type": "ContactPoint",
-            telephone: "+91-9876543210",
+            telephone: "+91-9986998851",
             contactType: "customer service",
             email: "kishanmpatil1@gmail.com",
-            availableLanguage: ["English", "Hindi", "Gujarati"]
+            availableLanguage: ["English", "Hindi", "Kannada"]
           }
         ],
         address: {
@@ -245,8 +242,8 @@ export default function RootLayout({
         "@id": "https://kishanm.me/#service",
         name: "Kishan M Patil Developer Portfolio & Services",
         url: "https://kishanm.me",
-        serviceType: "Kishan M Patil Portfolio KISHANMPATIL",
-        alternateName: "Kishan M Patil Portfolio KISAHN",
+        serviceType: "Kishan M Patil Portfolio",
+        alternateName: "Kishan M Portfolio",
         description: "Modern frontend engineering, creative 3D web experiences, and rapid AI prototyping by Kishan M. Patil.",
         provider: {
           "@id": "https://kishanm.me/#person"
@@ -254,8 +251,9 @@ export default function RootLayout({
         contactPoint: {
           "@type": "ContactPoint",
           contactType: "customer service",
+          telephone: "+91-9986998851",
           email: "kishanmpatil1@gmail.com",
-          availableLanguage: ["English", "Hindi", "Gujarati"]
+          availableLanguage: ["English", "Hindi", "Kannada"]
         },
         address: {
           "@type": "PostalAddress",
@@ -273,7 +271,7 @@ export default function RootLayout({
               "@type": "Offer",
               itemOffered: {
                 "@type": "Service",
-                name: "Kishan M Patil Portfolio KISHANMPATIL",
+                name: "Kishan M Patil Portfolio",
                 serviceType: "Frontend Engineering & Web Development"
               }
             },
@@ -281,7 +279,7 @@ export default function RootLayout({
               "@type": "Offer",
               itemOffered: {
                 "@type": "Service",
-                name: "Kishan M Patil Portfolio KISAHN",
+                name: "Kishan M Portfolio",
                 serviceType: "Creative 3D Web & AI Prototyping"
               }
             }
