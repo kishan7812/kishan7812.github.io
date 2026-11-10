@@ -118,6 +118,12 @@ export const metadata: Metadata = {
       "Frontend Specialist | Creative Developer | AI Enthusiast — Explore projects, hackathons, and engineering work by Kishan M Patil.",
     images: ["/og-image.jpg"],
   },
+  verification: {
+    google: "LaetPY6LMAIql2bk8H2sh3-dUYq2K5o40kWI9_zCWzY",
+    other: {
+      "msvalidate.01": "9EA5DC51A7426B33F94B8C0BFFFEE24A",
+    },
+  },
 };
 
 export default function RootLayout({
