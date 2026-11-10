@@ -1,4 +1,4 @@
-import { Trophy, Flame, Users, Zap, Check } from "lucide-react";
+import { Trophy, Flame, Users, Zap, Check, ExternalLink } from "lucide-react";
 
 export const metadata = {
   title: "Experience & Work",
@@ -34,6 +34,20 @@ export default function ExperiencePage() {
         "Engineered CampusTrace, combining Google Gemini multimodal vision AI with cryptographic QR verification.",
         "Built Geleya, an AI wellness platform with responsive charts and mental health tracking for students."
       ]
+    },
+    {
+      role: "Event Organizing & Hackathon Convener",
+      organization: "Offline Tech Events & Community Sprints",
+      timeline: "2025 - Present",
+      bullets: [
+        "Successfully hosted and organized 2 full-scale offline hackathons, managing logistics, participant coordination, problem statements, and real-time sprint mentoring.",
+        "Provided verified event infrastructure and community connect platform: hosted proof available on Aleropath Connect.",
+        "Currently architecting and planning an upcoming large-scale offline hackathon bringing together students, developers, and mentor networks for high-intensity in-person building."
+      ],
+      link: {
+        url: "https://aleropath.pages.dev/connect",
+        text: "View Hackathon Proof & Connect Platform"
+      }
     }
   ];
 
@@ -154,6 +168,20 @@ export default function ExperiencePage() {
                   <span>{b}</span>
                 </div>
               ))}
+
+              {exp.link && (
+                <div className="pt-4 mt-3 border-t border-gray-100 flex items-center justify-start">
+                  <a
+                    href={exp.link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg font-semibold text-xs text-white bg-[#111827] hover:bg-blue-600 shadow-sm hover:shadow transition-all duration-200 group"
+                  >
+                    <span>{exp.link.text}</span>
+                    <ExternalLink className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         ))}
