@@ -269,7 +269,16 @@ export default function EducationPage() {
                 <div className={`${item.bannerBg} px-5 py-3.5 flex flex-wrap items-center justify-between gap-2 border-b`}>
                   <div className="flex-1 min-w-[200px]">
                     <h3 className="font-bold text-base text-[#111827] leading-snug">
-                      {item.program}
+                      {item.program.includes("(Class 5 to 7)") ? (
+                        <>
+                          Primary & Middle School — Karnataka State Board{" "}
+                          <span className="block sm:inline sm:whitespace-normal whitespace-nowrap">
+                            (Class 5 to 7)
+                          </span>
+                        </>
+                      ) : (
+                        item.program
+                      )}
                     </h3>
                     <p className="text-xs font-semibold text-[#4B5563] mt-0.5">
                       {item.institution}
