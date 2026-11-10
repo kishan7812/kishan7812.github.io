@@ -25,6 +25,9 @@ export function Footer() {
         <Link href="/privacy" className="hover:text-blue-600 transition-colors">
           Privacy Policy
         </Link>
+        <Link href="/developers" className="hover:text-blue-600 transition-colors">
+          Developers
+        </Link>
       </div>
       <p>
         Made with ❤️ by <span className="font-semibold text-[#111827]">{personalInfo.name}</span>

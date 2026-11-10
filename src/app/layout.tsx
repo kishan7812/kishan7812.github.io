@@ -209,6 +209,38 @@ export default function RootLayout({
         },
       },
       {
+        "@type": "Organization",
+        "@id": "https://kishanm.me/#organization",
+        name: "Kishan M Patil Portfolio",
+        alternateName: [
+          "Kishan M Patil Portfolio KISHANMPATIL",
+          "Kishan M Patil Portfolio KISAHN",
+          "Kishan Developer Studio"
+        ],
+        url: "https://kishanm.me",
+        logo: "https://kishanm.me/og-image.jpg",
+        founder: {
+          "@id": "https://kishanm.me/#person"
+        },
+        contactPoint: [
+          {
+            "@type": "ContactPoint",
+            telephone: "+91-9876543210",
+            contactType: "customer service",
+            email: "kishanmpatil1@gmail.com",
+            availableLanguage: ["English", "Hindi", "Gujarati"]
+          }
+        ],
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Marwadi University Campus, Rajkot-Morbi Highway",
+          addressLocality: "Rajkot",
+          addressRegion: "Gujarat",
+          postalCode: "360003",
+          addressCountry: "IN"
+        }
+      },
+      {
         "@type": "ProfessionalService",
         "@id": "https://kishanm.me/#service",
         name: "Kishan M Patil Developer Portfolio & Services",
@@ -218,6 +250,20 @@ export default function RootLayout({
         description: "Modern frontend engineering, creative 3D web experiences, and rapid AI prototyping by Kishan M. Patil.",
         provider: {
           "@id": "https://kishanm.me/#person"
+        },
+        contactPoint: {
+          "@type": "ContactPoint",
+          contactType: "customer service",
+          email: "kishanmpatil1@gmail.com",
+          availableLanguage: ["English", "Hindi", "Gujarati"]
+        },
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Marwadi University Campus, Rajkot-Morbi Highway",
+          addressLocality: "Rajkot",
+          addressRegion: "Gujarat",
+          postalCode: "360003",
+          addressCountry: "IN"
         },
         hasOfferCatalog: {
           "@type": "OfferCatalog",
