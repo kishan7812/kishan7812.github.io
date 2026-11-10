@@ -1,3 +1,3 @@
 # Site Updating 
 
-SITE IS UPDARING PLEAS WAIT UP TO 30 SECOND and RELODE AGAIN untill you get my portfolio
+SITE IS UPDARING PLEAS WAIT UP TO 1 min and RELODE AGAIN untill you get my portfolio
