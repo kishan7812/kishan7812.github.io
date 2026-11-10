@@ -16,6 +16,20 @@ export const metadata = {
 export default function ExperiencePage() {
   const experiences = [
     {
+      role: "Event Organizing & Hackathon Convener",
+      organization: "Offline Tech Events & Community Sprints",
+      timeline: "2025 - Present",
+      bullets: [
+        "Successfully hosted and organized 2 full-scale offline hackathons, managing logistics, participant coordination, problem statements, and real-time sprint mentoring.",
+        "Provided verified event infrastructure and community connect platform: hosted proof available on Aleropath Connect.",
+        "Currently architecting and planning an upcoming large-scale offline hackathon bringing together students, developers, and mentor networks for high-intensity in-person building."
+      ],
+      link: {
+        url: "https://aleropath.pages.dev/connect",
+        text: "View Hackathon Proof & Connect Platform"
+      }
+    },
+    {
       role: "Hackathon Team Lead & Frontend Engineer",
       organization: "Competitive Engineering & Unstop Sprints",
       timeline: "2025 - Present",
@@ -34,20 +48,6 @@ export default function ExperiencePage() {
         "Engineered CampusTrace, combining Google Gemini multimodal vision AI with cryptographic QR verification.",
         "Built Geleya, an AI wellness platform with responsive charts and mental health tracking for students."
       ]
-    },
-    {
-      role: "Event Organizing & Hackathon Convener",
-      organization: "Offline Tech Events & Community Sprints",
-      timeline: "2025 - Present",
-      bullets: [
-        "Successfully hosted and organized 2 full-scale offline hackathons, managing logistics, participant coordination, problem statements, and real-time sprint mentoring.",
-        "Provided verified event infrastructure and community connect platform: hosted proof available on Aleropath Connect.",
-        "Currently architecting and planning an upcoming large-scale offline hackathon bringing together students, developers, and mentor networks for high-intensity in-person building."
-      ],
-      link: {
-        url: "https://aleropath.pages.dev/connect",
-        text: "View Hackathon Proof & Connect Platform"
-      }
     }
   ];
 
