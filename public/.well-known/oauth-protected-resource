@@ -1,0 +1,14 @@
+{
+  "resource": "https://kishanm.me",
+  "authorization_servers": [
+    "https://kishanm.me"
+  ],
+  "scopes_supported": [
+    "public:read",
+    "agent:access"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ],
+  "resource_documentation": "https://kishanm.me/llms.txt"
+}

@@ -1,0 +1,23 @@
+{
+  "protocol": {
+    "name": "acp",
+    "version": "1.0.0"
+  },
+  "api_base_url": "https://kishanm.me/api/acp",
+  "transports": [
+    "rest",
+    "http-json"
+  ],
+  "capabilities": {
+    "services": [
+      "consultation",
+      "freelance-services",
+      "project-commissioning"
+    ]
+  },
+  "metadata": {
+    "provider": "Kishan M. Patil",
+    "documentation": "https://kishanm.me/llms.txt",
+    "contact": "https://kishanm.me/contact"
+  }
+}

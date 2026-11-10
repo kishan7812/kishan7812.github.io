@@ -1,0 +1,29 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://kishanm.me",
+      "service-doc": [
+        {
+          "href": "https://kishanm.me/llms.txt",
+          "type": "text/plain"
+        },
+        {
+          "href": "https://kishanm.me/agent-instructions.md",
+          "type": "text/markdown"
+        }
+      ],
+      "service-desc": [
+        {
+          "href": "https://kishanm.me/.well-known/ai-catalog.json",
+          "type": "application/json"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://kishanm.me/",
+          "type": "text/html"
+        }
+      ]
+    }
+  ]
+}

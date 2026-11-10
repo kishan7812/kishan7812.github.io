@@ -1,0 +1,29 @@
+{
+  "issuer": "https://kishanm.me",
+  "authorization_endpoint": "https://kishanm.me/auth",
+  "token_endpoint": "https://kishanm.me/api/token",
+  "jwks_uri": "https://kishanm.me/.well-known/jwks.json",
+  "response_types_supported": ["token", "code"],
+  "grant_types_supported": ["client_credentials", "authorization_code"],
+  "token_endpoint_auth_methods_supported": ["client_secret_post", "none"],
+  "scopes_supported": ["public:read", "agent:access"],
+  "bearer_methods_supported": ["header"],
+  "agent_auth": {
+    "skill": "https://isitagentready.com/.well-known/agent-skills/auth-md/SKILL.md",
+    "register_uri": "https://kishanm.me/api/agent/register",
+    "identity_types_supported": ["anonymous", "identity_assertion"],
+    "credential_types_supported": ["bearer_token"],
+    "anonymous": {
+      "credential_types_supported": ["bearer_token"],
+      "claim_uri": "https://kishanm.me/contact"
+    },
+    "identity_assertion": {
+      "assertion_types_supported": ["verified_email", "urn:ietf:params:oauth:token-type:id-jag"],
+      "credential_types_supported": ["bearer_token"],
+      "claim_uri": "https://kishanm.me/contact"
+    },
+    "claim_url": "https://kishanm.me/contact",
+    "revocation_url": "https://kishanm.me/api/agent/revoke",
+    "revocation_uri": "https://kishanm.me/api/agent/revoke"
+  }
+}

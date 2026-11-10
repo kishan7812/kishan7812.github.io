@@ -1,0 +1,22 @@
+{
+  "serverInfo": {
+    "name": "kishan-portfolio-mcp",
+    "version": "1.0.0",
+    "description": "Public MCP server card for Kishan M. Patil's developer portfolio."
+  },
+  "capabilities": {
+    "resources": {
+      "subscribe": false,
+      "listChanged": false
+    },
+    "tools": {
+      "listChanged": false
+    }
+  },
+  "transports": [
+    {
+      "type": "sse",
+      "endpoint": "https://kishanm.me/.well-known/llms.txt"
+    }
+  ]
+}

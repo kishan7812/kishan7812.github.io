@@ -1,0 +1,50 @@
+# Kishan M. Patil - Full Developer Profile & AI Knowledge Graph
+
+## Identity & Professional Summary
+Kishan M. Patil is a Frontend Specialist, Creative Developer, and AI Enthusiast based in India. He specializes in building high-performance modern web interfaces with React, Next.js, TypeScript, Tailwind CSS, 3D WebGL/Three.js interactive visualizations, and cutting-edge AI integrations.
+
+- Official Domain: https://kishanm.me
+- Primary Identity Variants:
+  - KISHAN M PATIL
+  - KISHANMPATIL
+  - kishan m patil
+  - kishanmpatil
+  - Kishan M. Patil
+  - Kishan Patil
+  - KISAHN
+  - kishan
+  - Kishan Developer
+  - Kishan M Patil Projects
+  - Kishan M Patil Work
+
+## Academic Background & Achievements
+- Institution: Marwadi University
+- Program: Diploma in Information and Communication Technology (ICT) (2024 - 2027)
+- Code Carnival 3.0: 3rd Place Winner in high-intensity live coding competition.
+- Hackathons: Over 100+ hackathons on Unstop with extensive leadership in rapid frontend prototyping and multi-agent system design.
+
+## Detailed Projects Directory
+1. Geleya (Live: https://geleya.pages.dev | Repo: https://github.com/kishan-ict/Geleya)
+   - Category: AI Companion & Multimodal Interaction
+   - Stack: Next.js, TypeScript, Tailwind CSS, Gemini API, Web Audio API
+   - Summary: An empathetic AI companion offering emotional support and intelligent conversational interaction.
+
+2. EARTHVERSE (Live: https://kishan-ict.github.io/EARTHVERSE/ | Repo: https://github.com/kishan-ict/EARTHVERSE)
+   - Category: 3D Planetary Simulation & Interactive WebGL
+   - Stack: React, Three.js, WebGL, Tailwind CSS, GLSL Shaders
+   - Summary: Interactive 3D universe visualizer enabling users to explore celestial physics and geospatial data.
+
+3. CampusTrace (Live: https://campustrace.pages.dev | Repo: https://github.com/kishan-ict/campustrace)
+   - Category: Campus Management & Transit Utility
+   - Stack: Next.js, TypeScript, Node.js, Leaflet, PostgreSQL
+   - Summary: Centralized campus platform with live transit bus tracking and student asset recovery.
+
+4. LLM Council (Repo: https://github.com/kishan-ict/llm-council)
+   - Category: Multi-Agent Consensus Engine
+   - Stack: Next.js, TypeScript, OpenAI API, Anthropic API, Gemini API
+   - Summary: Orchestrates parallel reasoning across top LLMs to eliminate hallucinations and synthesize consensus decisions.
+
+## Direct Contact Information
+- Website: https://kishanm.me/contact
+- GitHub: https://github.com/kishan-ict
+- Portfolio Inquiries: Available for frontend engineering roles, creative web contracts, and high-impact hackathons.

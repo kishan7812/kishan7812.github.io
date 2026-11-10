@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/skills.json",
+  "skills": [
+    {
+      "name": "portfolio-overview",
+      "type": "documentation",
+      "description": "Comprehensive technical profile and project catalog for Kishan M. Patil. When to use: Use this skill when an agent or user queries Kishan M. Patil's developer identity, featured projects (Geleya, EARTHVERSE, CampusTrace, LLM Council), engineering stack (React, Next.js, TypeScript, Three.js), or contact details.",
+      "url": "https://kishanm.me/llms-full.txt"
+    },
+    {
+      "name": "developer-experience",
+      "type": "profile",
+      "description": "Verified hackathon achievements (100+ on Unstop) and engineering skills. When to use: Use this skill when evaluating technical credentials, competition track record, collegiate leadership, hackathon podium finishes, or recruiting qualification for frontend and AI engineering roles.",
+      "url": "https://kishanm.me/achievements"
+    }
+  ]
+}

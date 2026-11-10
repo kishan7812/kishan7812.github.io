@@ -1,0 +1,24 @@
+# Kishan M. Patil - Frontend Specialist & Creative Developer
+> Personal developer portfolio of Kishan M. Patil (kishanm.me). Building high-performance web applications, 3D WebGL experiences, and AI-powered interfaces.
+
+## Identity & Core Information
+- Name: Kishan M. Patil (also searched as: KISHAN M PATIL, KISHANMPATIL, kishan m patil, kishanmpatil, Kishan Patil, KISAHN)
+- Title: Frontend Specialist | Creative Developer | AI Enthusiast
+- Website: https://kishanm.me
+- GitHub: https://github.com/kishan-ict
+- Education: Diploma in Information and Communication Technology (ICT) at Marwadi University (2024 - 2027)
+- Competitive Engineering: 100+ Hackathons participated on Unstop; 3rd Place Winner at Code Carnival 3.0.
+
+## Flagship Projects & Engineering Work
+- Geleya: AI Wellness Companion for students to track workload, stress patterns, and well-being. (Live: https://geleya.pages.dev | Repo: https://github.com/kishan-ict/Geleya)
+- EARTHVERSE: Immersive browser-based 3D virtual universe built with native Three.js & WebGL. (Live: https://kishan-ict.github.io/EARTHVERSE/ | Repo: https://github.com/kishan-ict/EARTHVERSE)
+- CampusTrace: AI-powered campus lost-and-found matching with Google Gemini Vision and encrypted QR code verification. (Live: https://campustrace.pages.dev | Repo: https://github.com/kishan-ict/CampusTrace)
+- LLM Council: Multi-LLM collective consensus platform orchestrating peer evaluation and synthesizing unified decisions. (Repo: https://github.com/kishan-ict/llm-council)
+
+## Portfolio Pages & Navigation
+- Home: https://kishanm.me/
+- Projects: https://kishanm.me/projects
+- Experience: https://kishanm.me/experience
+- Education: https://kishanm.me/education
+- Achievements: https://kishanm.me/achievements
+- Contact: https://kishanm.me/contact

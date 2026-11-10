@@ -1,0 +1,58 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "name": "Kishan M. Patil Developer Portfolio",
+    "domain": "kishanm.me",
+    "description": "Portfolio of Kishan M. Patil: Frontend Specialist, Creative Developer, and AI Enthusiast."
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:kishanm.me:project:geleya",
+      "displayName": "Geleya",
+      "type": "text/html",
+      "url": "https://geleya.pages.dev",
+      "description": "AI-powered student wellness companion with biometric and workload analytics.",
+      "representativeQueries": [
+        "student mental wellness AI",
+        "academic stress monitoring app",
+        "Geleya project Kishan"
+      ]
+    },
+    {
+      "identifier": "urn:air:kishanm.me:project:earthverse",
+      "displayName": "EARTHVERSE",
+      "type": "text/html",
+      "url": "https://kishan-ict.github.io/EARTHVERSE/",
+      "description": "3D interactive spatial universe built with Three.js and WebGL.",
+      "representativeQueries": [
+        "Three.js 3D virtual world",
+        "browser spatial experience",
+        "EARTHVERSE webgl project"
+      ]
+    },
+    {
+      "identifier": "urn:air:kishanm.me:project:campustrace",
+      "displayName": "CampusTrace",
+      "type": "text/html",
+      "url": "https://campustrace.pages.dev",
+      "description": "AI campus lost-and-found with Gemini vision matching and QR handovers.",
+      "representativeQueries": [
+        "AI lost and found campus",
+        "Google Gemini image matching",
+        "CampusTrace Kishan Patil"
+      ]
+    },
+    {
+      "identifier": "urn:air:kishanm.me:project:llm-council",
+      "displayName": "LLM Council",
+      "type": "text/html",
+      "url": "https://github.com/kishan-ict/llm-council",
+      "description": "Multi-model deliberation consensus platform orchestrated by a Chairman AI.",
+      "representativeQueries": [
+        "multi-model LLM consensus",
+        "LLM deliberation architecture",
+        "LLM Council GitHub"
+      ]
+    }
+  ]
+}

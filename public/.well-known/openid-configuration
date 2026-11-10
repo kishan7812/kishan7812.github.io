@@ -1,0 +1,11 @@
+{
+  "issuer": "https://kishanm.me",
+  "authorization_endpoint": "https://kishanm.me/auth",
+  "token_endpoint": "https://kishanm.me/api/token",
+  "userinfo_endpoint": "https://kishanm.me/api/userinfo",
+  "jwks_uri": "https://kishanm.me/.well-known/jwks.json",
+  "response_types_supported": ["code", "token", "id_token"],
+  "subject_types_supported": ["public"],
+  "id_token_signing_alg_values_supported": ["RS256"],
+  "scopes_supported": ["openid", "profile", "public:read"]
+}
