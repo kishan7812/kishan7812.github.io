@@ -23,11 +23,11 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://kishanm.me"),
   title: {
-    default: "Kishan M Patil | Frontend Specialist & Creative Developer Portfolio",
+    default: "Kishan M Patil | Frontend & Creative Developer",
     template: "%s | Kishan M Patil",
   },
   description:
-    "Official portfolio of Kishan M Patil (kishanm.me). Frontend Specialist, Creative Developer, and AI Enthusiast showcasing featured projects like Geleya, EARTHVERSE, CampusTrace, and LLM Council.",
+    "Official portfolio of Kishan M. Patil. Frontend Specialist and Creative Developer building modern web, 3D experiences, and AI applications.",
   keywords: [
     // Brand name discoverability terms
     "Kishan M Patil Portfolio",
@@ -94,9 +94,9 @@ export const metadata: Metadata = {
     apple: "/favicon.ico",
   },
   openGraph: {
-    title: "Kishan M Patil | Frontend Specialist & Developer Portfolio",
+    title: "Kishan M Patil | Frontend & Creative Developer",
     description:
-      "Frontend Specialist | Creative Developer | AI Enthusiast — Explore the projects, engineering work, and experience of Kishan M Patil.",
+      "Frontend Specialist & Creative Developer. Explore modern web apps, 3D experiences, and AI projects by Kishan M. Patil.",
     url: "https://kishanm.me",
     siteName: "Kishan M Patil Portfolio",
     images: [
@@ -112,9 +112,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kishan M Patil | Frontend Specialist & Developer Portfolio",
+    title: "Kishan M Patil | Frontend & Creative Developer",
     description:
-      "Frontend Specialist | Creative Developer | AI Enthusiast — Explore projects, hackathons, and engineering work by Kishan M Patil.",
+      "Frontend Specialist & Creative Developer. Explore modern web apps, 3D experiences, and AI projects by Kishan M. Patil.",
     images: ["/og-image.jpg"],
   },
   verification: {
