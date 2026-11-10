@@ -1,3 +1,5 @@
+import Image from "next/image";
+import { ExternalLink } from "lucide-react";
 import { personalInfo } from "@/data/content";
 
 export const metadata = {
@@ -237,9 +239,28 @@ export default function EducationPage() {
           Education and Degrees
         </h2>
 
-        <div className="ref-card overflow-hidden">
+        <div className="ref-card overflow-hidden bg-white shadow-md rounded-2xl border border-black/5">
+          {/* Marwadi University Campus Image */}
+          <div className="relative w-full h-56 sm:h-72 md:h-80 overflow-hidden bg-slate-100">
+            <Image
+              src="/images/education/marwadi-university.jpg"
+              alt="Marwadi University Campus"
+              fill
+              priority
+              quality={95}
+              className="object-cover object-center"
+              sizes="(max-width: 768px) 100vw, 896px"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none" />
+            <div className="absolute bottom-4 left-6 sm:left-8 right-6 text-white drop-shadow">
+              <span className="text-xs uppercase tracking-wider font-bold bg-blue-600/90 backdrop-blur-sm px-2.5 py-1 rounded">
+                NAAC A+ Accredited Campus
+              </span>
+            </div>
+          </div>
+
           {/* Header Banner */}
-          <div className="bg-[#FDE68A]/70 px-8 py-5 flex items-center justify-between border-b border-amber-200">
+          <div className="bg-[#FDE68A]/70 px-6 sm:px-8 py-5 flex flex-wrap items-center justify-between gap-3 border-b border-amber-200">
             <div>
               <h3 className="font-bold text-lg sm:text-xl text-[#111827]">
                 {education.program}
@@ -253,14 +274,27 @@ export default function EducationPage() {
             </span>
           </div>
 
-          {/* Curriculum Points */}
-          <div className="p-8 space-y-4">
+          {/* Curriculum Points & CTA Button */}
+          <div className="p-6 sm:p-8 space-y-4">
             {education.focus.map((item, idx) => (
               <div key={idx} className="flex items-start gap-3 text-base text-[#4B5563]">
                 <span className="text-blue-600 font-bold shrink-0 mt-0.5">&bull;</span>
                 <span>{item}</span>
               </div>
             ))}
+
+            {/* View Course Details Button */}
+            <div className="pt-6 mt-6 border-t border-gray-100 flex items-center justify-start">
+              <a
+                href="https://www.marwadiuniversity.ac.in/ict-diploma/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-sm text-white bg-[#111827] hover:bg-blue-600 shadow-md hover:shadow-lg transition-all duration-200 group"
+              >
+                <span>View Course in Detail</span>
+                <ExternalLink className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
