@@ -196,6 +196,7 @@ export const personalInfo = {
   socials: {
     github: "https://github.com/kishan-ict",
     linkedin: "https://www.linkedin.com/in/kishan-m-patil-7860k1244",
+    twitter: "https://x.com/patil_kish7030",
     instagram: "https://www.instagram.com/kishan.m.patil"
   },
   educationList: [

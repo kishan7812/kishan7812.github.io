@@ -171,8 +171,9 @@ export default function RootLayout({
         ],
         sameAs: [
           "https://github.com/kishan-ict",
-          "https://linkedin.com",
-          "https://x.com"
+          "https://www.linkedin.com/in/kishan-m-patil-7860k1244",
+          "https://x.com/patil_kish7030",
+          "https://www.instagram.com/kishan.m.patil"
         ],
         description:
           "Frontend Specialist, Creative Developer, and AI Enthusiast building high-performance web applications, 3D interactive experiences, and AI-powered products.",

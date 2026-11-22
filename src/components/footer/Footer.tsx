@@ -49,7 +49,7 @@ export function Footer() {
               </a>
 
               <a
-                href="https://x.com"
+                href={personalInfo.socials.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="X (Twitter) Profile"
