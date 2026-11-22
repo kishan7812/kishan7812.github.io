@@ -231,19 +231,19 @@ export const personalInfo = {
       ]
     },
     {
-      institution: "Middle School (Name to be updated)",
-      program: "Middle Schooling (8th Grade)",
+      institution: "Anandathirtha Vidyalaya (ATV)",
+      program: "Middle School — CBSE Board (8th Grade)",
       period: "2022 - 2023",
       status: "Completed (2022 - 2023)",
-      badge: "School Name Forgotten",
-      bannerBg: "bg-[#E5E7EB]/80 border-gray-300",
-      image: "/images/education/memory-school.svg",
-      link: "#",
-      linkText: "Updating School Name Soon",
+      badge: "CBSE Affiliated",
+      bannerBg: "bg-[#FED7AA]/70 border-orange-200",
+      image: "/images/education/anandathirtha-vidyalaya.jpg",
+      link: "https://anandathirthavidyalaya.com",
+      linkText: "Visit Official School Website",
       focus: [
-        "Foundational Middle School Academics & Core Subjects",
-        "I forgot the exact school name for this academic year — updating it soon!",
-        "Transitioned into secondary education and competitive preparation"
+        "CBSE Curriculum in Mathematics, Science, Social Studies & Languages",
+        "8th Grade Foundational Academics, Laboratory & Co-curricular Activities",
+        "Active Participation in School Seminars, Sports & Student Clubs"
       ]
     },
     {
