@@ -195,7 +195,8 @@ export const personalInfo = {
   email: "kishanmpatil1@gmail.com",
   socials: {
     github: "https://github.com/kishan-ict",
-    linkedin: "https://www.linkedin.com/in/kishan-m-patil-7860k1244"
+    linkedin: "https://www.linkedin.com/in/kishan-m-patil-7860k1244",
+    instagram: "https://www.instagram.com/kishan.m.patil"
   },
   educationList: [
     {
