@@ -75,17 +75,16 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Right Column: Prominent, Zoomed-In Hero Artwork (Eliminating Empty Space) */}
+        {/* Right Column: Prominent Hero Artwork (SVG Feeling Proud) */}
         <div className="lg:col-span-6 flex justify-center items-center">
-          <div className="relative w-full max-w-[580px] lg:max-w-[640px] flex items-center justify-center overflow-visible">
+          <div className="relative w-full max-w-[540px] lg:max-w-[600px] flex items-center justify-center select-none">
             <Image
-              src="/images/hero-kishan.png"
-              alt="Kishan M. Patil at workspace desk"
-              width={900}
-              height={675}
+              src="/images/feeling-proud.svg"
+              alt="Kishan M. Patil developer desk illustration"
+              width={712}
+              height={670}
               priority
-              quality={95}
-              className="w-full h-auto object-contain transform scale-110 lg:scale-120 origin-center transition-transform"
+              className="w-full h-auto object-contain drop-shadow-sm transition-transform"
             />
           </div>
         </div>
