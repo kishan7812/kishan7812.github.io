@@ -184,7 +184,142 @@ export const achievementsData = {
     stat: "100+",
     title: "Unstop Hackathon Odyssey",
     description: "Actively led and participated in 100+ competitive hackathons and engineering challenges on Unstop. Hone exceptional velocity in rapid prototyping, cross-functional collaboration, real-time bug diagnosis, and shipping usable MVPs within 24-48 hour sprints."
-  }
+  },
+  certificates: [
+    {
+      id: "code-carnival-3",
+      title: "Code Carnival Season 3 — 3rd Rank Podium",
+      issuer: "Atmiya University & GDG Cloud Rajkot",
+      date: "October 2026",
+      category: "Hackathon",
+      badge: "National Hackathon Podium",
+      badgeColor: "bg-amber-100 text-amber-800 border-amber-300",
+      image: "/images/certificates/cert_04.jpg",
+      verifyUrl: "",
+      note: "National-level 36-hour hackathon organized by Atmiya University, GDG Cloud Rajkot, and ADSC. Secured 3rd Rank overall for Problem Statement PS-3 with Team Event HUB.",
+      tags: ["Hackathon", "Podium Finish", "36-Hour Sprint", "Team Lead"]
+    },
+    {
+      id: "cisco-it-essentials",
+      title: "IT Essentials: PC Hardware & Software",
+      issuer: "Cisco Networking Academy",
+      date: "April 2026",
+      category: "Systems & Networking",
+      badge: "Industry Credential",
+      badgeColor: "bg-blue-100 text-blue-800 border-blue-300",
+      image: "/images/certificates/cert_08.jpg",
+      verifyUrl: "",
+      note: "Comprehensive certification by Cisco covering PC hardware assembly, Windows/Linux operating system configuration, networking protocols, host security, and hardware diagnostics.",
+      tags: ["Cisco", "Hardware", "Operating Systems", "Networking", "Security"]
+    },
+    {
+      id: "cisco-it-essentials-mefgi",
+      title: "Cisco IT Essentials 7 — Institutional Honor",
+      issuer: "Marwadi Education Foundation's Group of Institutions",
+      date: "April 2026",
+      category: "Systems & Networking",
+      badge: "Institutional Completion",
+      badgeColor: "bg-cyan-100 text-cyan-800 border-cyan-300",
+      image: "/images/certificates/cert_09.jpg",
+      verifyUrl: "",
+      note: "Official institutional course completion credential for IT Essentials 7 delivered via MEFGI Cisco Networking Academy Program under Dr. Dharmendrasinh Zala.",
+      tags: ["Cisco Academy", "MEFGI", "Systems Engineering"]
+    },
+    {
+      id: "genai-101-mastering-llms",
+      title: "GenAI 101: Mastering LLMs",
+      issuer: "LetsUpgrade x NSDC & GDG MAD",
+      date: "November 2025",
+      category: "Artificial Intelligence",
+      badge: "Govt NSDC Recognized",
+      badgeColor: "bg-purple-100 text-purple-800 border-purple-300",
+      image: "/images/certificates/cert_01.jpg",
+      verifyUrl: "https://letsupgrade.in/verify",
+      certNo: "LUEGAlNOV12512",
+      note: "Intensive 2-day hands-on masterclass on Large Language Models, prompt engineering, generative architectures, and practical AI application pipelines in collaboration with NSDC.",
+      tags: ["GenAI", "LLMs", "NSDC", "GDG MAD", "Prompt Engineering"]
+    },
+    {
+      id: "html-css-bootcamp",
+      title: "HTML & CSS Bootcamp Certification",
+      issuer: "LetsUpgrade x NSDC & ITM Edutech",
+      date: "November 2025",
+      category: "Web Development",
+      badge: "Govt NSDC Recognized",
+      badgeColor: "bg-emerald-100 text-emerald-800 border-emerald-300",
+      image: "/images/certificates/cert_03.jpg",
+      verifyUrl: "https://letsupgrade.in/verify",
+      certNo: "LUEHTMLNOV12549",
+      note: "Comprehensive frontend foundation bootcamp focused on modern HTML5 semantic markup, responsive CSS3 styling, Flexbox/Grid architectures, and cross-browser interfaces.",
+      tags: ["HTML5", "CSS3", "Responsive Design", "NSDC"]
+    },
+    {
+      id: "github-to-income-open-source",
+      title: "GitHub to Income: Real Open-Source Opportunities",
+      issuer: "CodeQuesters Community x CDN IGNOU",
+      date: "June 2026",
+      category: "Open Source",
+      badge: "Workshop Masterclass",
+      badgeColor: "bg-slate-100 text-slate-800 border-slate-300",
+      image: "/images/certificates/cert_02.jpg",
+      verifyUrl: "",
+      note: "Specialized open-source workshop on building career-ready GitHub portfolios, contributing to production repositories, and unlocking opportunities through open-source software.",
+      tags: ["GitHub", "Open Source", "CodeQuesters", "CDN IGNOU"]
+    },
+    {
+      id: "upgrad-startup-india",
+      title: "Startup India Learning Certification",
+      issuer: "upGrad & Startup India Initiative",
+      date: "September 2026",
+      category: "Entrepreneurship",
+      badge: "Startup India / upGrad",
+      badgeColor: "bg-red-100 text-red-800 border-red-300",
+      image: "/images/certificates/cert_05.jpg",
+      verifyUrl: "",
+      certNo: "5df4e3a5-13a6-493f-adce-4ff571661ef4",
+      note: "Certification in entrepreneurial foundations, business model validation, startup scaling mechanics, and venture building through the Startup India educational program.",
+      tags: ["Entrepreneurship", "Startup India", "Business Scaling", "upGrad"]
+    },
+    {
+      id: "mitticool-case-study",
+      title: "Mitticool Innovation Case Study Competition",
+      issuer: "Marketing Club, FMS — Marwadi University",
+      date: "February 2026",
+      category: "Business Strategy",
+      badge: "University Award",
+      badgeColor: "bg-indigo-100 text-indigo-800 border-indigo-300",
+      image: "/images/certificates/cert_07.jpg",
+      verifyUrl: "",
+      note: "Award of Appreciation in the Case Study Competition 'Mitticool Group: Scaling Clay Innovation from Kitchen to Living' on National Management Day at Marwadi University.",
+      tags: ["Marwadi University", "Case Study", "Innovation", "Management"]
+    },
+    {
+      id: "viksit-bharat-young-leaders",
+      title: "Viksit Bharat Young Leaders Dialogue (VBYLD)",
+      issuer: "Ministry of Youth Affairs and Sports, Govt of India",
+      date: "September 2026",
+      category: "National Initiative",
+      badge: "Govt of India (MY Bharat)",
+      badgeColor: "bg-teal-100 text-teal-800 border-teal-300",
+      image: "/images/certificates/cert_06.jpg",
+      verifyUrl: "",
+      note: "National youth participation recognition by the Ministry of Youth Affairs & Sports on the MY Bharat platform for leadership vision and youth contribution toward Viksit Bharat.",
+      tags: ["Govt of India", "MY Bharat", "Leadership", "National Initiative"]
+    },
+    {
+      id: "constitution-day-quiz",
+      title: "National Constitution Day 2026",
+      issuer: "Ministry of Youth Affairs & MyGov India",
+      date: "November 2026",
+      category: "National Initiative",
+      badge: "Govt of India (MyGov)",
+      badgeColor: "bg-orange-100 text-orange-800 border-orange-300",
+      image: "/images/certificates/cert_10.jpg",
+      verifyUrl: "",
+      note: "Official national participation credential issued jointly by the Department of Youth Affairs (MY Bharat) and MyGov on the occasion of Constitution Day 2026.",
+      tags: ["MyGov", "Govt of India", "Constitution Day"]
+    }
+  ]
 };
 
 export const personalInfo = {
