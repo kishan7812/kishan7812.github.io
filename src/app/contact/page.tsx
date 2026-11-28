@@ -8,11 +8,24 @@ import { Mail, Check, Copy, MapPin } from "lucide-react";
 
 export default function ContactPage() {
   const [copied, setCopied] = useState(false);
+  const [formState, setFormState] = useState({ name: "", email: "", message: "" });
+  const [submitted, setSubmitted] = useState(false);
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(personalInfo.email);
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
+  };
+
+  const handleFormSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const subject = encodeURIComponent(`Portfolio Inquiry from ${formState.name}`);
+    const body = encodeURIComponent(
+      `Name: ${formState.name}\nEmail: ${formState.email}\n\nMessage:\n${formState.message}`
+    );
+    window.location.href = `mailto:${personalInfo.email}?subject=${subject}&body=${body}`;
+    setSubmitted(true);
+    setTimeout(() => setSubmitted(false), 4000);
   };
 
   return (
@@ -287,8 +300,78 @@ export default function ContactPage() {
             </div>
 
             <div className="p-4 rounded-xl bg-gray-100 border border-gray-200 text-xs text-gray-600">
-              Resume PDF: <span className="font-semibold text-gray-800">Coming Soon</span>
+              Availability: <span className="font-semibold text-gray-800">Open to Internships &amp; Freelance &bull; IST (UTC+5:30)</span>
             </div>
+          </div>
+        </div>
+
+        {/* Interactive Contact Form */}
+        <div className="mt-14 pt-12 border-t border-gray-200">
+          <div className="ref-card p-8 sm:p-10 bg-white border border-black/10 rounded-2xl shadow-sm">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-[#111827] mb-2">
+              Send a Direct Message
+            </h2>
+            <p className="text-sm text-[#4B5563] mb-6">
+              Have an internship, freelance project, or hackathon collaboration in mind? Fill out the form below.
+            </p>
+
+            <form onSubmit={handleFormSubmit} className="space-y-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label htmlFor="contact-name" className="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-1.5">
+                    Your Name
+                  </label>
+                  <input
+                    id="contact-name"
+                    type="text"
+                    required
+                    value={formState.name}
+                    onChange={(e) => setFormState({ ...formState, name: e.target.value })}
+                    placeholder="Alex Johnson"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 bg-gray-50/50 text-sm text-[#111827] focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="contact-email" className="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-1.5">
+                    Your Email
+                  </label>
+                  <input
+                    id="contact-email"
+                    type="email"
+                    required
+                    value={formState.email}
+                    onChange={(e) => setFormState({ ...formState, email: e.target.value })}
+                    placeholder="alex@company.com"
+                    className="w-full px-4 py-2.5 rounded-xl border border-gray-300 bg-gray-50/50 text-sm text-[#111827] focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label htmlFor="contact-message" className="block text-xs font-bold uppercase tracking-wider text-gray-600 mb-1.5">
+                  Message
+                </label>
+                <textarea
+                  id="contact-message"
+                  rows={4}
+                  required
+                  value={formState.message}
+                  onChange={(e) => setFormState({ ...formState, message: e.target.value })}
+                  placeholder="Tell me about your project, role, or idea..."
+                  className="w-full px-4 py-2.5 rounded-xl border border-gray-300 bg-gray-50/50 text-sm text-[#111827] focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition-all resize-none"
+                />
+              </div>
+
+              <div className="flex items-center gap-4 pt-2">
+                <button
+                  type="submit"
+                  className="ref-button text-sm tracking-wide uppercase inline-flex items-center gap-2"
+                >
+                  <Mail className="w-4 h-4" />
+                  <span>{submitted ? "Opening Mail Client..." : "Send Message"}</span>
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>

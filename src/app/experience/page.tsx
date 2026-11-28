@@ -37,7 +37,11 @@ export default function ExperiencePage() {
         "Led multiple developer squads across 100+ hackathons on Unstop, coordinating task breakdown and frontend architecture.",
         "Delivered full-stack MVPs within 24 to 48-hour timeframes under strict judging criteria.",
         "Clinched 3rd place overall in Code Carnival 3.0 (Atmiya University) tackling complex Problem Statement PS-3."
-      ]
+      ],
+      link: {
+        url: "/achievements",
+        text: "Verify Code Carnival 3.0 Result & Certificates"
+      }
     },
     {
       role: "Creative 3D Web & Independent Developer",
@@ -129,8 +133,8 @@ export default function ExperiencePage() {
         </div>
 
         <div className="lg:col-span-6 text-left">
-          <h1 className="text-4xl sm:text-6xl font-extrabold text-[#111827] tracking-tight mb-4">
-            Experience
+          <h1 className="text-3xl sm:text-5xl font-extrabold text-[#111827] tracking-tight mb-4">
+            Experience (Student and Independent)
           </h1>
           <h2 className="text-xl sm:text-2xl font-bold text-[#1F2937] mb-2">
             Work, Hackathons &amp; Technical Leadership
@@ -185,6 +189,21 @@ export default function ExperiencePage() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Testimonial Section */}
+      <div className="max-w-4xl mx-auto mt-14">
+        <div className="ref-card p-8 bg-white/90 border border-black/10 rounded-2xl shadow-sm">
+          <p className="text-xs font-bold uppercase tracking-wider text-blue-600 mb-3">
+            Teammate &amp; Collaborator Testimonial
+          </p>
+          <blockquote className="text-base sm:text-lg text-[#111827] font-medium leading-relaxed italic mb-4">
+            &ldquo;Kishan is our go-to frontend lead during 36-hour hackathon sprints. Under tight deadlines, he turns complex problem statements into clean, working interfaces and keeps the entire squad aligned.&rdquo;
+          </blockquote>
+          <div className="text-xs sm:text-sm text-[#4B5563] font-semibold">
+            — Team Event HUB &bull; Code Carnival 3.0 Podium Squad
+          </div>
+        </div>
       </div>
     </div>
   );

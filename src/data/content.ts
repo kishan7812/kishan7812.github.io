@@ -3,6 +3,9 @@ export interface Project {
   title: string;
   category: string;
   hook: string;
+  problem?: string;
+  built?: string;
+  role?: string;
   description?: string;
   image?: string;
   stack: string[];
@@ -20,6 +23,9 @@ export const projectsData: Project[] = [
     title: "Geleya",
     category: "AI / Wellness",
     hook: "An AI-powered wellness companion that helps students monitor their academic workload, understand stress levels, and improve their overall well-being.",
+    problem: "Students struggle to track academic burnout and daily stress patterns in one place.",
+    built: "An AI-assisted wellness dashboard with mood/workload analytics and guided check-ins.",
+    role: "Lead Frontend Developer & UI Architect",
     image: "/images/projects/geleya.jpg",
     stack: [
       "React",
@@ -43,6 +49,9 @@ export const projectsData: Project[] = [
     title: "EARTHVERSE",
     category: "3D / Creative Web",
     hook: "An immersive browser-based 3D virtual universe where users can explore a futuristic environment, interact with virtual objects, customize avatars, and create their digital identities.",
+    problem: "Standard web portfolios lack spatial, interactive 3D environments that run natively in browsers.",
+    built: "A real-time 3D virtual world with collision detection, avatar customization, and persistent state.",
+    role: "Creator, 3D Web & Graphics Developer",
     image: "/images/projects/earthverse.jpg",
     stack: [
       "HTML5",
@@ -62,6 +71,9 @@ export const projectsData: Project[] = [
     title: "CampusTrace",
     category: "AI / Campus Tech",
     hook: "An AI-powered campus lost-and-found platform that helps students recover lost belongings through intelligent image recognition, secure claim verification, QR-based handovers, and privacy-focused communication.",
+    problem: "Campus lost-and-found relies on scattered WhatsApp groups with no verification.",
+    built: "An AI image-matching lost-and-found portal with QR handover and Firestore claim verification.",
+    role: "Full-Stack Frontend & Gemini AI Integrator",
     image: "/images/projects/campustrace.jpg",
     stack: [
       "React 19",
@@ -83,6 +95,9 @@ export const projectsData: Project[] = [
     title: "LLM Council",
     category: "AI / Multi-Model",
     hook: "A multi-LLM collaboration platform that brings multiple AI models together to generate independent answers, evaluate each other's responses, rank their insights, and produce a unified answer through a Chairman AI.",
+    problem: "Single LLMs can hallucinate or miss perspectives on complex technical prompts.",
+    built: "A multi-model council pipeline where models peer-review, rank, and synthesize a final answer.",
+    role: "Full-Stack Developer (FastAPI + React)",
     image: "/images/projects/llm-council.jpg",
     stack: [
       "Python",

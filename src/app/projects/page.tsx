@@ -359,11 +359,19 @@ export default function ProjectsPage() {
                   {project.hook}
                 </p>
 
-                {project.description && (
-                  <p className="text-sm text-[#4B5563] leading-relaxed mb-6">
-                    {project.description}
-                  </p>
-                )}
+                {/* 4-line structured breakdown */}
+                <div className="space-y-1.5 text-xs sm:text-sm text-[#4B5563] mb-5 bg-gray-50/80 p-3.5 rounded-xl border border-gray-100">
+                  {project.problem && (
+                    <p><strong className="text-[#111827]">Problem:</strong> {project.problem}</p>
+                  )}
+                  {project.built && (
+                    <p><strong className="text-[#111827]">Built:</strong> {project.built}</p>
+                  )}
+                  {project.role && (
+                    <p><strong className="text-[#111827]">Role:</strong> {project.role}</p>
+                  )}
+                  <p><strong className="text-[#111827]">Tech:</strong> {project.stack.slice(0, 5).join(", ")}</p>
+                </div>
 
                 {/* Tech stack badges */}
                 <div className="flex flex-wrap gap-2 mb-6">
@@ -382,28 +390,24 @@ export default function ProjectsPage() {
             {/* Action buttons */}
             <div className="p-8 pt-0">
               <div className="flex items-center gap-3 pt-4 border-t border-gray-100">
-                {project.isHosted && project.liveUrl && (
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex-1 text-center py-2.5 px-4 rounded-md font-semibold text-xs sm:text-sm text-white bg-[#0F172A] hover:bg-[#1E293B] transition-colors inline-flex items-center justify-center gap-1.5"
-                  >
-                    <span>Live Demo</span>
-                    <ArrowUpRight className="w-4 h-4" />
-                  </a>
-                )}
+                <a
+                  href={project.liveUrl || `${project.githubUrl}#readme`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 text-center py-2.5 px-4 rounded-md font-semibold text-xs sm:text-sm text-white bg-[#0F172A] hover:bg-[#1E293B] transition-colors inline-flex items-center justify-center gap-1.5"
+                >
+                  <span>{project.liveUrl ? "Live Demo" : "Demo & Docs"}</span>
+                  <ArrowUpRight className="w-4 h-4" />
+                </a>
 
                 <a
                   href={project.githubUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`${
-                    project.isHosted ? "flex-1" : "w-full"
-                  } text-center py-2.5 px-4 rounded-md font-semibold text-xs sm:text-sm text-[#111827] bg-gray-100 hover:bg-gray-200 border border-gray-200 transition-colors inline-flex items-center justify-center gap-1.5`}
+                  className="flex-1 text-center py-2.5 px-4 rounded-md font-semibold text-xs sm:text-sm text-[#111827] bg-gray-100 hover:bg-gray-200 border border-gray-200 transition-colors inline-flex items-center justify-center gap-1.5"
                 >
                   <GithubIcon className="w-4 h-4" />
-                  <span>GitHub Repository</span>
+                  <span>GitHub</span>
                 </a>
               </div>
             </div>

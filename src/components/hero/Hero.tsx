@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { personalInfo } from "@/data/content";
 import { GithubIcon, LinkedinIcon } from "@/components/icons/SocialIcons";
-import { Mail } from "lucide-react";
+import { Mail, FileText, MapPin, Clock } from "lucide-react";
 
 export function Hero() {
   return (
@@ -20,9 +20,25 @@ export function Hero() {
             Frontend Specialist &bull; Creative Developer &bull; AI Enthusiast
           </div>
 
-          <p className="text-base sm:text-lg text-[#4B5563] leading-relaxed mb-8 max-w-xl">
+          <p className="text-base sm:text-lg text-[#4B5563] leading-relaxed mb-5 max-w-xl">
             I&apos;m Kishan M. Patil, a student developer passionate about building meaningful digital experiences through technology and creativity.
           </p>
+
+          {/* Availability, Location & Timezone */}
+          <div className="flex flex-wrap items-center gap-3 mb-7 text-xs sm:text-sm font-medium text-[#374151]">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+              Open to Internships &amp; Freelance
+            </span>
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/80 text-[#374151] border border-gray-200">
+              <MapPin className="w-3.5 h-3.5 text-gray-500" />
+              Rajkot, India
+            </span>
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/80 text-[#374151] border border-gray-200">
+              <Clock className="w-3.5 h-3.5 text-gray-500" />
+              IST (UTC+5:30)
+            </span>
+          </div>
 
           {/* Social Circles matching the reference style */}
           <div className="flex items-center gap-3.5 mb-8">
@@ -56,7 +72,7 @@ export function Hero() {
           </div>
 
           {/* Action Buttons */}
-          <div className="flex flex-wrap items-center gap-4">
+          <div className="flex flex-wrap items-center gap-3.5">
             <a
               href={personalInfo.socials.github}
               target="_blank"
@@ -66,9 +82,22 @@ export function Hero() {
               Follow Me On GitHub
             </a>
 
+            <button
+              type="button"
+              disabled
+              title="Resume PDF is being finalized — coming soon"
+              className="px-5 py-3 rounded-md font-semibold text-sm text-[#111827] bg-white border border-gray-300 shadow-sm inline-flex items-center gap-2 opacity-85 cursor-not-allowed"
+            >
+              <FileText className="w-4 h-4 text-blue-600" />
+              <span>Download Resume (PDF)</span>
+              <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-amber-100 text-amber-800 border border-amber-200">
+                Upcoming
+              </span>
+            </button>
+
             <Link
               href="/contact"
-              className="px-6 py-3 rounded-md font-semibold text-sm text-[#111827] bg-white hover:bg-gray-100 border border-gray-300 transition-colors shadow-sm"
+              className="px-5 py-3 rounded-md font-semibold text-sm text-[#111827] bg-white hover:bg-gray-100 border border-gray-300 transition-colors shadow-sm"
             >
               Contact Me
             </Link>

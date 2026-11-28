@@ -12,7 +12,7 @@ export function Skills() {
       icon: Layers,
       title: "UI Architecture",
       summary: "Accessible, scalable interface design systems",
-      skills: ["Radix UI", "shadcn/ui", "Framer Motion", "Design Tokens", "Responsive Web Design"],
+      skills: ["Figma", "Radix UI", "shadcn/ui", "Framer Motion", "Responsive Web Design"],
     },
     {
       icon: Box,
@@ -41,15 +41,15 @@ export function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-24 px-6 lg:px-12 max-w-6xl mx-auto border-t border-white/10">
-      <div className="mb-14 max-w-xl">
-        <span className="font-mono text-xs uppercase tracking-widest text-blue-400">
+    <section id="skills" className="py-12 sm:py-16 px-6 lg:px-16 max-w-7xl mx-auto">
+      <div className="mb-14 max-w-2xl">
+        <span className="font-mono text-xs font-bold uppercase tracking-widest text-blue-600">
           Technical Skills
         </span>
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white mt-1">
-          Technical <span className="font-serif italic font-normal text-slate-300">Arsenal.</span>
-        </h2>
-        <p className="text-sm text-[#94A3B8] mt-3">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#111827] mt-1">
+          Technical <span className="font-serif italic font-normal text-[#374151]">Arsenal.</span>
+        </h1>
+        <p className="text-base sm:text-lg text-[#4B5563] mt-3 leading-relaxed">
           Technologies and tools I leverage to build production-grade web interfaces and intelligent software.
         </p>
       </div>
@@ -60,26 +60,26 @@ export function Skills() {
           return (
             <div
               key={idx}
-              className="p-7 rounded-2xl bg-[#111622] border border-white/8 hover:border-white/20 transition-all flex flex-col justify-between"
+              className="ref-card p-7 rounded-2xl bg-white border border-black/10 shadow-sm hover:shadow-md transition-all flex flex-col justify-between"
             >
               <div>
                 <div className="flex items-center gap-3 mb-3">
-                  <div className="p-2.5 rounded-xl bg-white/5 border border-white/8 text-blue-400">
+                  <div className="p-2.5 rounded-xl bg-blue-50 border border-blue-100 text-blue-600">
                     <Icon className="w-5 h-5" />
                   </div>
-                  <h3 className="text-base font-bold text-white tracking-tight">
+                  <h2 className="text-lg font-bold text-[#111827] tracking-tight">
                     {dom.title}
-                  </h3>
+                  </h2>
                 </div>
 
-                <p className="text-xs text-[#94A3B8] mb-5 font-mono">
+                <p className="text-xs text-[#6B7280] mb-5 font-mono">
                   {dom.summary}
                 </p>
 
-                <ul className="space-y-1.5">
+                <ul className="space-y-2">
                   {dom.skills.map((s, i) => (
-                    <li key={i} className="text-sm text-[#CBD5E1] flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-blue-400/60" />
+                    <li key={i} className="text-sm font-medium text-[#374151] flex items-center gap-2.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
                       <span>{s}</span>
                     </li>
                   ))}

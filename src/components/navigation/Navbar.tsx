@@ -14,6 +14,7 @@ export function Navbar() {
     { name: "Education", href: "/education" },
     { name: "Experience", href: "/experience" },
     { name: "Projects", href: "/projects" },
+    { name: "Skills", href: "/skills" },
     { name: "Achievements", href: "/achievements" },
     { name: "Contact Me", href: "/contact" },
   ];
@@ -78,6 +79,15 @@ export function Navbar() {
                 </Link>
               );
             })}
+            <span
+              title="Resume PDF is being finalized — coming soon"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-semibold bg-white/80 text-[#111827] border border-gray-300 cursor-not-allowed opacity-85"
+            >
+              Resume (PDF)
+              <span className="text-[9px] font-bold uppercase px-1.5 py-0.5 rounded bg-amber-100 text-amber-800">
+                Upcoming
+              </span>
+            </span>
           </nav>
 
           {/* Mobile menu trigger */}
