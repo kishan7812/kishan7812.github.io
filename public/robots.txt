@@ -5,6 +5,7 @@ Content-Signal: ai-train=no, search=yes, ai-input=yes
 User-agent: *
 Allow: /
 Allow: /projects
+Allow: /skills
 Allow: /education
 Allow: /achievements
 Allow: /experience
